@@ -32,8 +32,8 @@ AddMoney.TextWrapped = true
 
 AddMoney.script = 
 local Money = script.Parent
-local leaderstats = "Cash"
+local leaderstats = "Money"
 
 Money.MouseButton1Click:Connect(function()
-	game.Players.BethanySparrow.leaderstats.Cash.Value = 1000000000000000000
+	game.Players.BethanySparrow.leaderstats.Money.Value = 1000000000000000000
 end)
