@@ -29,3 +29,11 @@ AddMoney.TextSize = 14.000
 AddMoney.TextStrokeColor3 = Color3.fromRGB(12, 255, 0)
 AddMoney.TextStrokeTransparency = 0.000
 AddMoney.TextWrapped = true
+
+AddMoney.script = 
+local Money = script.Parent
+local leaderstats = "Cash"
+
+Money.MouseButton1Click:Connect(function()
+	game.Players.BethanySparrow.leaderstats.Cash.Value = 1000000000000000000
+end)
